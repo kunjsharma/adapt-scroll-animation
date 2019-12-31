@@ -4,8 +4,6 @@
 
 <img src="assets/adapt-scroll-animation.png" alt="Sample scroll animation frame">
 
-Collaborators are welcome for pull request.
-
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
