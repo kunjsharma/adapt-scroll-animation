@@ -1,0 +1,21 @@
+{{! Maintainers - Kunj B Sharma}}
+<div class="scroll-animation-inner component-inner" role="region" aria-label="{{_globals._components._scroll-animation.ariaRegion}}" {{#if _globals._components._scroll-animation.ariaRegion}}tabindex="0"{{/if}}>
+    {{> component this}}
+    <div class="scroll-animation-widget component-widget">
+        <div class="scroll-animation-widget-container">
+            <img class="scroll-animation-widget-bg" src="{{_bg}}"/>
+            <div class="scroll-animation-item-holder">
+                {{#each _items}}
+                <div class="scroll-animation-item item">
+                    <div class="scroll-animation-item-frame">
+                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}" tabindex="0"/>
+                    </div>
+                    <div class="scroll-animation-item-text" >
+                        {{{a11y_text text}}}
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

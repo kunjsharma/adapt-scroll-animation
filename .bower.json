@@ -1,0 +1,24 @@
+{
+  "name": "adapt-scroll-animation",
+  "homepage": "https://github.com/kunjsharma/adapt-scroll-animation",
+  "authors": [
+    "Kunj B Sharma <kunjsharma@hotmail.com>"
+  ],
+  "description": "A simple adapt component that creates an animation sequence in scroll way by images/text added in it.",
+  "main": "/js/adapt-scroll-animation.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c26ab058-af44-4d0e-9ce7-72c4d9d24a66"
+  },
+  "_source": "git://github.com/kunjsharma/adapt-scroll-animation.git",
+  "_target": "*",
+  "_originalSource": "adapt-scroll-animation",
+  "_direct": true
+}

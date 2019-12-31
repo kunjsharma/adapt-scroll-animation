@@ -1,0 +1,56 @@
+.scroll-animation-component {
+    .scroll-animation-title {
+        margin: 0px;
+    }
+    .scroll-animation-widget {
+        margin-left: 0px;
+        .scroll-animation-widget-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            .scroll-animation-item-holder {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        }
+        img {
+            vertical-align: top;
+        }
+        .scroll-animation-item {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+    .scroll-animation-item {
+        color: @black;
+        position: relative;
+        display: block;
+        z-index: 1;
+    }
+    .scroll-animation-item-frame {
+        background: none;
+        z-index: 1;
+        opacity: 0;
+        display: block;
+        float: left;
+        clear: both;
+        text-align: center;
+    }
+    .scroll-animation-item-frame img {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .scroll-animation-item-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+}
